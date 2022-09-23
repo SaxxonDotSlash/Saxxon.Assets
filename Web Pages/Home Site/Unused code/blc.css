@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+}
+
+.htmldiv {
+    font-size: 16px
+}
+
+.cssdiv {
+    font-size: 16px;
+}
+
+.jsdiv {
+    font-size: 16;
+}
+
+.main1html {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 16;
+    background-color: aliceblue;
+}

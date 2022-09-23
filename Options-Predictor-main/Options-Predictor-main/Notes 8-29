@@ -1,0 +1,12 @@
+max = strike/zero - premium
+
+call is buy
+put is sell
+
+Options are contracts that give the bearer the right—but not the obligation—to either buy or sell an amount of some underlying asset at a predetermined price at 
+or before the contract expires.
+
+
+Use for API work:
+https://github.com/JonCooperWorks/go-tdameritrade
+https://medium.com/swlh/printing-money-with-td-ameritrades-api-a5cccf6a538c

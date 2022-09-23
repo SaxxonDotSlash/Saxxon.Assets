@@ -1,0 +1,16 @@
+body {
+    background-color: beige
+}
+div.headingcontainer {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: right;
+    background-color: beige;
+}
+div.headingcontainter > div {
+    text-align: right;
+    background-color: beige;
+}
+p.madeby {
+    font-size: 11
+}

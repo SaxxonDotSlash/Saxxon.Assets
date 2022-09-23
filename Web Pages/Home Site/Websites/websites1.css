@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+
+.grid-container {
+    grid-gap: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-container > div {
+    align-self: center;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 32;
+}
+
+.header {
+    font-size: 32px;
+}
+
+.button {
+    text-align: center;
+}

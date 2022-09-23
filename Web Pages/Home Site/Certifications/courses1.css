@@ -1,0 +1,13 @@
+body {
+    background-color: darkseagreen;
+}
+
+.heading {
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+}

@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+            UFW Private Test V0.1
+        </title>
+        <link rel="stylesheet" type="text/css" href="UFH-main.css">
+    </head>
+    <body>
+        <div class="body_holder">
+            <div>
+                <h1>NMAP</h1>
+                <form action="NMAP.php" method="post">
+                    <label for="ip-addr">IP Address</label>
+                    <input type="text" id="ip-addr" name="ip-addr"><br>
+                    <label for="port-range">Ports</label>
+                    <input type="text" id="port-range" name="port-range"><br>
+                    <!--Add extra options later-->
+                    <input type="submit" value="Start">
+                </form>
+            </div>
+            <div>
+                <h1>DIR Buster</h1>
+                <form action="DIR-Buster.php">
+                    <label for='web-url'>Website</label>
+                    <input type="text" id="web-url" name="web-url"><br>
+                    <label for="wordlist">Wordlist</label>
+                    <select name="wordlist" id="wordlist">
+                        <option value="Placeholder_Wordlist_1">Placeholder_Wordlist_1</option>
+                        <option value="Placeholder_Wordlist_2">Placeholder_Wordlist_2</option>
+                        <option value="Placeholder_Wordlist_3">Placeholder_Wordlist_3</option>
+                    </select>
+                    <br>
+                    <!--Rest of options needed-->
+                    <input type="submit" value="Start">
+                </form>
+            </div>
+            <div>
+                <h1>HashCat</h1>
+                <label for="options">Options</label>
+                <select name="--hash-type" id="--hash-type">
+                    <option value="900">MD4</option>
+                    <option value="0">MD5</option>
+                    <option value="100">SHA1</option>
+                    <option value="1300">SHA2-244</option>
+                    <option value="1400">SHA2-256</option>
+                    <option value="10800">SHA2-384</option>
+                    <option value="1700">SHA2-512</option>
+                    <option value="17300">SHA3-224</option>
+                    <option value="17400">SHA3-256</option>
+                    <option value="17500">SHA3-384</option>
+                    <option value="17600">SHA3-512</option>
+                </select>
+                <br>
+                <input type="submit" value="Start">
+            </div>
+        </div>
+    </body>
+    <footer>
+        <i>This tool is still under development.</i>
+    </footer>
+</html>

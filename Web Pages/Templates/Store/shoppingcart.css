@@ -1,0 +1,17 @@
+body {
+    background-color: beige;
+}
+footer {
+    background-color: beige;
+    font-size: 11px;
+}
+div.headingcontainer {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: right;
+    background-color: beige;
+}
+div.headingcontainter > div {
+    text-align: right;
+    background-color: beige;
+}

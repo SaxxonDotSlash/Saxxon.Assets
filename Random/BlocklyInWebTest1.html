@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+	<title>test page</title>
+</head>
+<body>
+<header>Blockly Integration Test Site</header>
+<script src="C:\Users\9199310\AppData\Local\Temp\google-blockly-2.20190722.1-2-g4efa0da.zip\google-blockly-4efa0da\blockly_compressed.js"></script>
+<script src="C:\Users\9199310\AppData\Local\Temp\google-blockly-2.20190722.1-2-g4efa0da.zip\google-blockly-4efa0da\blocks_compressed.js"></script>
+<script src="msg/js/en.js"></script>
+<div id="blocklyDiv" style="height: 480px; width: 600px:"></div>
+<xml id="toolbox" style="display: none">
+  <block type="controls_if"></block>
+  <block type="controls_repeat_ext"></block>
+  <block type="logic_compare"></block>
+  <block type="math_number"></block>
+  <block type="math_arithmetic"></block>
+  <block type="text"></block>
+  <block type="text_print"></block>
+</xml>
+<script>
+	var workspace = Blockly.inject('blocklyDiv',
+		{toolbox: document.getElementById('toolbox')});
+</script>
+</body>
+</html>
